@@ -1,9 +1,31 @@
-# Nscan
-Tools for automate scanning network. Based on nmap with some scripting to perform the scanning more usefull.
-This tool make using ruby scripting.
+## Usage
 
-# Options
-1. Scan a single target domain <br>
-2. Scan a list of domains from a file
+To use this script, follow these steps:
 
-![image](https://github.com/joelindra/Nscan/assets/44172898/8fadd2f5-f906-4689-861d-e472e944b822)
+1. Ensure you have Ruby installed on your system.
+2. Install the required 'colorize' gem by running:
+    ```bash
+    gem install colorize
+    ```
+3. Clone this repository to your local machine.
+4. Navigate to the directory containing the script.
+5. Make the script executable by running:
+    ```bash
+    chmod +x n5c4n.rb
+    ```
+6. Run the script by executing:
+    ```bash
+    ./n5c4n.rb
+    ```
+
+### Script Description
+
+The script `n5c4n.rb` allows users to perform network scans using Nmap. It provides options to scan a single target domain or multiple domains from a file.
+
+The script utilizes the 'colorize' gem for colored output in the terminal. It incorporates a loading animation while scanning to indicate ongoing processes.
+
+#### Note
+
+Please ensure you have appropriate permissions and the necessary dependencies installed before executing the script.
+
+Feel free to explore and modify the script as needed.
