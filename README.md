@@ -11,16 +11,16 @@ To use this script, follow these steps:
 4. Navigate to the directory containing the script.
 5. Make the script executable by running:
     ```bash
-    chmod +x n5c4n.rb
+    chmod +x nscan.rb
     ```
 6. Run the script by executing:
     ```bash
-    ./n5c4n.rb
+    ./nscan.rb
     ```
 
 ### Script Description
 
-The script `n5c4n.rb` allows users to perform network scans using Nmap. It provides options to scan a single target domain or multiple domains from a file.
+The script `nscan.rb` allows users to perform network scans using Nmap. It provides options to scan a single target domain or multiple domains from a file.
 
 The script utilizes the 'colorize' gem for colored output in the terminal. It incorporates a loading animation while scanning to indicate ongoing processes.
 
